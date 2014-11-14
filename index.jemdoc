@@ -1,0 +1,20 @@
+# jemdoc: menu{MENU}{index.html}
+= Ashudeep Singh
+{{<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />}}
+~~~
+{}{img_left}{images/propic.jpg}{Ashudeep Singh}{300px}
+Fifth Year Dual Degree Student,
+\nDepartment of [http://www.cse.iitk.ac.in Computer Science and Engineering],
+\n[http://www.iitk.ac.in Indian Institute of Technology Kanpur].
+\n\n[contact.html Contact]: ashudeep \[at\] iitk \[dot\] ac \[dot\] in
+
+\nAdvisor: Prof. [http://www.cse.iitk.ac.in/users/amit/ Amitabha Mukerjee]
+~~~
+
+== About Me
+Something about me
+
+== Next bit of info about me
+
+== Nothing new here
+Something new here
