@@ -30,7 +30,7 @@ vs Consensus axes and hence finding patterns that define task success
 == Winter School: Internship Programme in Technology Supported Education +(Dec 2012)+
 
 ~~~
-{}{img_left}{projects/images/iptse.png}{Trained HMM}{350px}{}{projects/images/iptse.png}
+{}{img_left}{projects/images/iptse.png}{flow}{350px}{}{projects/images/iptse.png}
 *Question Generation for Discussion Facilitation*
 \n /Mentored by Prof. [www.cs.cmu.edu/~cprose/ Carolyn P. Rosé], Carnegie Mellon Univeristy at IPTSE Winter School, MSRIT, Bangalore, India/
 \n \[[projects/iptse_report.pdf Report]\] \[[projects/iptse_poster.pdf Poster]\] \[[projects/cmu_code.zip Code]\] \[[pubs/aied2013.pdf Paper]\]
@@ -48,7 +48,7 @@ SentiWordNet Corpus.
 == Summer Undergraduate Research Grant for Excellence (SURGE) +(May--July 2012)+
 
 ~~~
-{}{img_left}{projects/images/logic_studio.png}{Trained HMM}{300px}{}{projects/images/logic_studio.png}
+{}{img_left}{projects/images/logic_studio.png}{Pipeline}{300px}{}{projects/images/logic_studio.png}
 */Logic Studio/: Automatic Problem Generation in Propositional Logic*
 \n/Mentored by Dr. [http://research.microsoft.com/en-us/um/people/sumitg/ Sumit Gulwani] (Microsoft Research, Redmond), Prof. Amey
 Karkare (IIT Kanpur) and Prof. Subhajit Roy (IIT Kanpur) at IIT Kanpur./
@@ -62,3 +62,5 @@ problems that use specified axioms in their solutions. It was coded in C# langua
 - We exploited the truth table representations of the logical formulas for generating new valid
 problems similar to given ones or completely new ones.
 ~~~
+
+\n\n/More projects [projects.html here]./
