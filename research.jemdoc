@@ -1,22 +1,64 @@
 # jemdoc: menu{MENU}{research.html}
-= Research
+= Research Internships
 
-== Cornell University +(May 2014 - July 2014)+
-
+== Cornell University +(May--July 2014)+
+~~~
+{}{img_left}{projects/images/arxiv.png}{Embeddings on arxiv.org}{200px}
 *Using Preference data to embed documents in Metric Spaces*
 \n /Mentored by Prof. [http://joachims.org Thorsten Joachims], Cornell Univeristy./
+\n More info soon.
+~~~
 
-\n
+== Carnegie Mellon University +(May--July 2013)+
 
-== Carnegie Mellon University +(May 2013 - July 2013)+
-
+~~~
+{}{img_left}{projects/images/cmu.png}{Trained HMM}{350px}{}{projects/images/cmu.png}
 *A Computational Model for Quantitative Discourse Analysis in a Collaborative Learning Setting*
 \n /Mentored by Prof. [www.cs.cmu.edu/~cprose/ Carolyn P. Rosé] at Language Technologies Institute, Carnegie Mellon Univeristy./
 \n \[[projects/cmu_report.pdf Report]\] \[[projects/cmu_code.zip Code]\] \[[pubs/its2014.pdf Paper]\]
-\n
+\nIn this work, we aimed to identify quantitative metrics that can be used to predict task success or
+discriminate between successful and unsuccessful groups involved in a collaborative learning task,
+using text based chat transcripts.
+- Trained a model using a set of text features to automatically mark sequences and threads in a
+text-based chat conversation.
+- Defined an annotation scheme based on the sequencing/threading information of dialogues to
+identify knowledge flow in the conversation from speaker to speaker.
+- Used this knowledge flow to graphically analyze the trajectory of the conversation on Confusion
+vs Consensus axes and hence finding patterns that define task success
+~~~
 
 == Winter School: Internship Programme in Technology Supported Education +(Dec 2012)+
 
+~~~
+{}{img_left}{projects/images/iptse.png}{Trained HMM}{350px}{}{projects/images/iptse.png}
 *Question Generation for Discussion Facilitation*
 \n /Mentored by Prof. [www.cs.cmu.edu/~cprose/ Carolyn P. Rosé], Carnegie Mellon Univeristy at IPTSE Winter School, MSRIT, Bangalore, India/
 \n \[[projects/iptse_report.pdf Report]\] \[[projects/iptse_poster.pdf Poster]\] \[[projects/cmu_code.zip Code]\] \[[pubs/aied2013.pdf Paper]\]
+\nThe motivation of the project was to encourage discussion and reasoning amongst students in a class
+through intelligent tutors. The major implementation was divided into two major parts- Sentence
+Extraction and Question Generation.
+- Sentence Extraction involved extracting meaningful sentences from a summary that are the best
+representation/abstraction of the whole chapter. We used techniques like- LSA, Tf-Idf, Cosine
+Similarity and Jaccard Coefficient and analyzed the results hence obtained.
+- For Question Generation, we modified a pre-existing implementation of question generation from
+text to generate and rank subjective questions. For scoring and ranking questions, we used
+SentiWordNet Corpus.
+~~~
+
+== Summer Undergraduate Research Grant for Excellence (SURGE) +(May--July 2012)+
+
+~~~
+{}{img_left}{projects/images/logic_studio.png}{Trained HMM}{300px}{}{projects/images/logic_studio.png}
+*/Logic Studio/: Automatic Problem Generation in Propositional Logic*
+\n/Mentored by Dr. [http://research.microsoft.com/en-us/um/people/sumitg/ Sumit Gulwani] (Microsoft Research, Redmond), Prof. Amey
+Karkare (IIT Kanpur) and Prof. Subhajit Roy (IIT Kanpur) at IIT Kanpur./
+
+The project comprised of the Problem Generation component of a larger project which aims at
+building an Intelligent Tutor for Logic Course.
+- Our work involved generating deduction problems, hints and solutions to problems in Proposi-
+tional Logic.
+- The three interfaces of problem generation are: from a given problem, from scratch and generating
+problems that use specified axioms in their solutions. It was coded in C# language.
+- We exploited the truth table representations of the logical formulas for generating new valid
+problems similar to given ones or completely new ones.
+~~~
