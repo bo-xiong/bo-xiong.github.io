@@ -14,7 +14,7 @@
 ~~~
 {}{img_left}{projects/images/cmu.png}{Trained HMM}{350px}{}{projects/images/cmu.png}
 *A Computational Model for Quantitative Discourse Analysis in a Collaborative Learning Setting*
-\n /Mentored by Prof. [www.cs.cmu.edu/~cprose/ Carolyn P. Rosé] at Language Technologies Institute, Carnegie Mellon Univeristy./
+\n /Mentored by Prof. [http://www.cs.cmu.edu/~cprose/ Carolyn P. Rosé] at Language Technologies Institute, Carnegie Mellon Univeristy./
 \n \[[projects/cmu_report.pdf Report]\] \[[projects/cmu_code.zip Code]\] \[[pubs/its2014.pdf Paper]\]
 \nIn this work, we aimed to identify quantitative metrics that can be used to predict task success or
 discriminate between successful and unsuccessful groups involved in a collaborative learning task,
@@ -32,7 +32,7 @@ vs Consensus axes and hence finding patterns that define task success
 ~~~
 {}{img_left}{projects/images/iptse.png}{flow}{350px}{}{projects/images/iptse.png}
 *Question Generation for Discussion Facilitation*
-\n /Mentored by Prof. [www.cs.cmu.edu/~cprose/ Carolyn P. Rosé], Carnegie Mellon Univeristy at IPTSE Winter School, MSRIT, Bangalore, India/
+\n /Mentored by Prof. [http://www.cs.cmu.edu/~cprose/ Carolyn P. Rosé], Carnegie Mellon Univeristy at IPTSE Winter School, MSRIT, Bangalore, India/
 \n \[[projects/iptse_report.pdf Report]\] \[[projects/iptse_poster.pdf Poster]\] \[[projects/cmu_code.zip Code]\] \[[pubs/aied2013.pdf Paper]\]
 \nThe motivation of the project was to encourage discussion and reasoning amongst students in a class
 through intelligent tutors. The major implementation was divided into two major parts- Sentence
@@ -45,7 +45,7 @@ text to generate and rank subjective questions. For scoring and ranking question
 SentiWordNet Corpus.
 ~~~
 
-== Summer Undergraduate Research Grant for Excellence (SURGE) +(May--July 2012)+
+== Summer Undergraduate Research Grant for Excellence ([http://http://www.iitk.ac.in/dora/index.php?option=com_content&view=category&layout=blog&id=563&Itemid=123 SURGE]) +(May--July 2012)+
 
 ~~~
 {}{img_left}{projects/images/logic_studio.png}{Pipeline}{300px}{}{projects/images/logic_studio.png}
