@@ -4,9 +4,20 @@
 <head>
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<META name="description" content="Ashudeep Singh, CSE, IIT Kanpur">
+<META name="keywords" content="ashudeep, singh, iitk, cse, chandigarh, mohali, hall 9, ashu, ashudeep singh, iitk.ac.in">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<script src="js/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("courses").toggle();
+  });
+});
+</script>
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title></title>
+<title>Projects</title>
 </head>
 <body>
 <table summary="Table for page layout." id="tlayout">
@@ -14,17 +25,79 @@
 <td id="layout-menu">
 <div class="menu-category">Ashudeep Singh<br /></div>
 <div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="awards.html">Achievements</a></div>
 <div class="menu-item"><a href="pubs.html">Publications</a></div>
 <div class="menu-item"><a href="acads.html">Academics</a></div>
 <div class="menu-item"><a href="research.html">Research</a></div>
 <div class="menu-item"><a href="projects.html" class="current">Projects</a></div>
+<div class="menu-item"><a href="extracurrics.html">Extra-curriculars</a></div>
 <div class="menu-item"><a href="Resume_AshudeepSingh_IITKanpur.pdf">Resume</a></div>
 <div class="menu-item"><a href="contact.html">Contact</a></div>
 </td>
 <td id="layout-content">
+<div id="toptitle">
+<h1>Projects</h1>
+<div id="subtitle">Research Internships <a href="research.html">here</a>.</div>
+</div>
+<h2>Course Projects</h2>
+<ul>
+<li><p><b>Scene Recognition using mid-level CNN features</b>
+<br /><i>Course Project, CS676(Computer Vision), Prof. <a href="https://sites.google.com/site/vinaynamboodiri/">Vinay P. Namboodiri</a>, IIT Kanpur (July&ndash;Nov 2013)</i>
+<br />In this project we tried to explore how the features extracted from the activation of a deep convolutional neural network trained in a supervised fashion on the ImageNet dataset can be used to classify in novel generic tasks such as scene recognition. We use the mid-level features from the pretrained CNN hypothesising that they contain semantic information as relevant for the task of scene recognition. We consider a spatial pyramid kind of setting for the image, which represents ImageNet objects of scale upto the size of the image. We experiment with the features obtained at the first fully connected layer and the last convolutional layer. We show that the features obtained from last convolutional layer work better than the features obtained from first fully connected layer for the task of scene recognition due to the fact that scene require more coarser representaion for classification. In the later part of this project, we also experiment with the deformable parts model and region proposal for scene recognition with mid-level CNN features. The results obtained on MIT-67 Scene Dataset and 15 scene dataset, are quite impressive as compared to the state-of-the-art.</p>
+</li>
+</ul>
+<ul>
+<li><p><b>Recommendation System for movielens dataset</b>
+<br /><i>C771 Course Project under Prof. Harish Karnick, IIT Kanpur (Sept&ndash;Nov 2013)</i></p>
+<ul>
+<li><p>Used SVD decomposition of preprocessed User-Movie Matrix to discover the latent features for
+users as well as movies and hence predict ratings of unseen movies for each user given their
+previous ratings, user demographic features and movie genre information.</p>
+</li>
+<li><p>Pre-processing of User-Movie matrix was done by seeding the unknown ratings using k-NN and
+linear regression based prediction.</p>
+</li>
+<li><p>Obtained results comparable to the state-of-the-art for <i>movielens</i> dataset.</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li><p><b>Semantic approach to Summarization</b>
+<br /><i>CS498 project with Prof. Harish Karnick</i></p>
+<ul>
+<li><p>Developed a technique to identify clusters of text segments based on semantic similarities, using
+FrameNet annotation.</p>
+</li>
+<li><p>The input text was represented as a Semantic Role Labelled text. The clusters were constructed
+based on verb frame similarities, considering both verbs and arguments. Then, the summary
+was generated using a hand-crafted sentence generation technique to represent a cluster of verb
+frames as meaningful sentences.</p>
+</li>
+<li><p>The summaries hence generated were evaluated by human evaluators on 4 different aspects– Information content, Grammatical Correctness, Abstractness and Expressiveness. The evaluations
+yielded quite good results.</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li><p><b>Student Response Analysis using Textual Entailment</b> 
+<br /><i>Natural Language Processing Course Project under Prof. Amitabha Mukerjee (Sept&ndash;Nov 2013)</i></p>
+<ul>
+<li><p>Working on a 5-way classification task, recognizing the extent of correctness of a student answer given a question and a few reference answers.</p>
+</li>
+<li><p>Exploring different text similarity and overlap features to train models on and also trying to use various techniques used in Recognizing Textual Entailment Challenges since 2006.</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<p><b>More projects to be added soon.</b></p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2014-11-14 20:30:05 IST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2014-11-16 11:06:03 IST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>
