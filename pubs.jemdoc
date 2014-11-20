@@ -12,8 +12,7 @@ In the context of chat transcripts from a collaborative learning scenario,
 we demonstrate that while low-level textual features can indeed predict
 student success, models derived from sequential discourse act labels are
 also predictive, both on their own and as a supplement to textual feature
-sets. Further, we find that evidence from the initial stages of a collabo-
-rative activity is just as effective as using the whole.
+sets. Further, we find that evidence from the initial stages of a collaborative activity is just as effective as using the whole.
 ~~~
 
 David Adamson, Divyanshu Bhartiya, Biman Gujral, Radhika Kedia, Ashudeep Singh, Carolyn P. Rosé. 
