@@ -58,7 +58,7 @@ building an Intelligent Tutor for Logic Course.
 - Our work involved generating deduction problems, hints and solutions to problems in Proposi-
 tional Logic.
 - The three interfaces of problem generation are: from a given problem, from scratch and generating
-problems that use specified axioms in their solutions. It was coded in C# language.
+problems that use specified axioms in their solutions. It was coded in C\# language.
 - We exploited the truth table representations of the logical formulas for generating new valid
 problems similar to given ones or completely new ones.
 ~~~
