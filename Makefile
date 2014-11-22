@@ -7,3 +7,4 @@ all:
 	jemdoc -c mysite.conf -o research.html research
 	jemdoc -c mysite.conf -o projects.html projects
 	jemdoc -c mysite.conf -o contact.html contact
+	jemdoc -c mysite.conf -o courses.html courses
