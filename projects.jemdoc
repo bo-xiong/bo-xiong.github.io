@@ -1,5 +1,6 @@
 # jemdoc: menu{MENU}{projects.html}
 = Projects
+
 Research Internships [research.html here].
 
 == Course Projects
@@ -33,3 +34,15 @@ yielded quite good results.
 -- Exploring different text similarity and overlap features to train models on and also trying to use various techniques used in Recognizing Textual Entailment Challenges since 2006.
 
 *More projects to be added soon.*
+
+
+
+== Term Paper Presentations and Paper Reviews
+
+- *Slepian-Wolf Encoding*
+-- Presented an encoding method in Distributed Source Coding, which models the correlation between multiple sources at the decoder side together with channel codes.
+-- Slides can be found [projects/slides/cs687.pdf here].
+
+- *The Happiness Advantage* (Benefitting from Positive Psychology)
+-- Discussed how the formula "Happiness follows Success" is broken and how it works backwards.
+-- Slides can be found [projects/slides/psy451.pdf here].
