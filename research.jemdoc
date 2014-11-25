@@ -1,5 +1,7 @@
 # jemdoc: menu{MENU}{research.html}
-= Research Internships
+= Research 
+
+= Internships
 
 == Cornell University +(May--July 2014)+
 ~~~
@@ -19,12 +21,12 @@
 \nIn this work, we aimed to identify quantitative metrics that can be used to predict task success or
 discriminate between successful and unsuccessful groups involved in a collaborative learning task,
 using text based chat transcripts.
-- Trained a model using a set of text features to automatically mark sequences and threads in a
-text-based chat conversation.
+- Trained a discriminative model using a set of text features to automatically mark sequences and threads in a
+text-based chat conversation based on structures define by [http://www.cs.cmu.edu/~emayfiel/MayfieldSIGDIAL12.pdf Mayfield et al.]
 - Defined an annotation scheme based on the sequencing/threading information of dialogues to
 identify knowledge flow in the conversation from speaker to speaker.
 - Used this knowledge flow to graphically analyze the trajectory of the conversation on Confusion
-vs Consensus axes and hence finding patterns that define task success
+vs Consensus axes and hence finding patterns that define task success.
 ~~~
 
 == Winter School: Internship Programme in Technology Supported Education +(Dec 2012)+
