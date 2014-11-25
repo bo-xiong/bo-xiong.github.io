@@ -1,7 +1,8 @@
 # jemdoc: menu{MENU}{research.html}
-= Research
+= Research 
 
-= Research Internships
+= Internships
+
 == Cornell University +(May--July 2014)+
 ~~~
 {}{img_left}{projects/images/arxiv.png}{Embeddings on arxiv.org}{200px}
@@ -20,12 +21,12 @@
 \nIn this work, we aimed to identify quantitative metrics that can be used to predict task success or
 discriminate between successful and unsuccessful groups involved in a collaborative learning task,
 using text based chat transcripts.
-- Trained a model using a set of text features to automatically mark sequences and threads in a
-text-based chat conversation.
+- Trained a discriminative model using a set of text features to automatically mark sequences and threads in a
+text-based chat conversation based on structures define by [http://www.cs.cmu.edu/~emayfiel/MayfieldSIGDIAL12.pdf Mayfield et al.]
 - Defined an annotation scheme based on the sequencing/threading information of dialogues to
 identify knowledge flow in the conversation from speaker to speaker.
 - Used this knowledge flow to graphically analyze the trajectory of the conversation on Confusion
-vs Consensus axes and hence finding patterns that define task success
+vs Consensus axes and hence finding patterns that define task success.
 ~~~
 
 == Winter School: Internship Programme in Technology Supported Education +(Dec 2012)+
@@ -46,7 +47,7 @@ text to generate and rank subjective questions. For scoring and ranking question
 SentiWordNet Corpus.
 ~~~
 
-== Summer Undergraduate Research Grant for Excellence ([http://http://www.iitk.ac.in/surge SURGE]) +(May--July 2012)+
+== Summer Undergraduate Research Grant for Excellence ([http://http://www.iitk.ac.in/dora/index.php?option=com_content&view=category&layout=blog&id=563&Itemid=123 SURGE]) +(May--July 2012)+
 
 ~~~
 {}{img_left}{projects/images/logic_studio.png}{Pipeline}{300px}{}{projects/images/logic_studio.png}
@@ -59,7 +60,7 @@ building an Intelligent Tutor for Logic Course.
 - Our work involved generating deduction problems, hints and solutions to problems in Proposi-
 tional Logic.
 - The three interfaces of problem generation are: from a given problem, from scratch and generating
-problems that use specified axioms in their solutions. It was coded in C\# language.
+problems that use specified axioms in their solutions. It was coded in C# language.
 - We exploited the truth table representations of the logical formulas for generating new valid
 problems similar to given ones or completely new ones.
 ~~~
