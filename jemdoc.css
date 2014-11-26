@@ -79,10 +79,11 @@ a:hover {
 }
 
 div.menu-category {
-	border-bottom: 1px solid gray;
-	margin-top: 0.8em;
-	padding-top: 0.2em;
-	padding-bottom: 0.1em;
+	border-bottom: 3px solid #001;
+	margin-top: 0.0em;
+	padding-top: 0.0em;
+	padding-bottom: 0.0em;
+	margin-bottom: 0.0em;
 	font-weight: bold;
 }
 
