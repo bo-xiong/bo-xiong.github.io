@@ -35,7 +35,7 @@ vs Consensus axes and hence finding patterns that define task success.
 {}{img_left}{projects/images/iptse.png}{flow}{350px}{}{projects/images/iptse.png}
 *Question Generation for Discussion Facilitation*
 \n /Mentored by Prof. [http://www.cs.cmu.edu/~cprose/ Carolyn P. Rosé], Carnegie Mellon Univeristy at IPTSE Winter School, MSRIT, Bangalore, India/
-\n \[[projects/iptse_report.pdf Report]\] \[[projects/iptse_poster.pdf Poster]\] \[[projects/cmu_code.zip Code]\] \[[pubs/aied2013.pdf Paper]\]
+\n \[[projects/iptse_report.pdf Report]\] \[[projects/iptse_poster.pdf Poster]\]\[[pubs/aied2013.pdf Paper]\]
 \nThe motivation of the project was to encourage discussion and reasoning amongst students in a class
 through intelligent tutors. The major implementation was divided into two major parts- Sentence
 Extraction and Question Generation.
@@ -57,8 +57,7 @@ Karkare (IIT Kanpur) and Prof. Subhajit Roy (IIT Kanpur) at IIT Kanpur./
 
 The project comprised of the Problem Generation component of a larger project which aims at
 building an Intelligent Tutor for Logic Course.
-- Our work involved generating deduction problems, hints and solutions to problems in Proposi-
-tional Logic.
+- Our work involved generating deduction problems, hints and solutions to problems in Propositional Logic.
 - The three interfaces of problem generation are: from a given problem, from scratch and generating
 problems that use specified axioms in their solutions. It was coded in C# language.
 - We exploited the truth table representations of the logical formulas for generating new valid

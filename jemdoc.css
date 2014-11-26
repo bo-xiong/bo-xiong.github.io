@@ -8,7 +8,7 @@ table#tlayout {
 
 body {
 	background: white;
-	font-family: Georgia, serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 1.25em;
 	padding-bottom: 8px;
 	margin: 0;
@@ -79,11 +79,14 @@ a:hover {
 }
 
 div.menu-category {
-	border-bottom: 1px solid gray;
-	margin-top: 0.8em;
-	padding-top: 0.2em;
-	padding-bottom: 0.1em;
-	font-weight: bold;
+	border-bottom: 2px solid #001;
+	margin-top: 0.0em;
+	padding-top: 0.0em;
+	padding-bottom: 0.0em;
+	margin-bottom: 0.0em;
+	font-family: 'Dawning of a New Day', cursive;
+	font-size: 165%;
+	text-shadow: 1px 1px 1px #aaa;
 }
 
 div.menu-item {
