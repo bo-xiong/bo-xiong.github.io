@@ -2,13 +2,15 @@
 # jemdoc: menu{MENU}{contact.html}
 = Contact
 
+== Emails
+#- [ashudeep@iitk.ac.in]
+#- [ashudeep@cse.iitk.ac.in]
+#- [ashudeep21@gmail.com]
 ~~~
-{Email}
-- [ashudeep@iitk.ac.in]
-- [ashudeep@cse.iitk.ac.in]
-- [ashudeep21@gmail.com]
+{}{img_left}{images/emails.jpg}{Email ids}{75%}{}
 ~~~
 
+== Address
 ~~~
 {}{img_left}{images/rm.jpg}{Rajeev Motwani Building}{100%}{}{http://www.cse.iitk.ac.in}
 ==== Office
