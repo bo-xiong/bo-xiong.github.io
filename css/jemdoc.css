@@ -83,8 +83,8 @@ div.menu-category {
 	margin-top: 0.0em;
 	padding-top: 0.0em;
 	margin-left: 0.20em;
-	margin-bottom: 0.0em;
-	font-size: 100%;
+	margin-bottom: 0.3em;
+	font-size: 95%;
 	text-shadow: 1px 1px 1px #aaa;
 }
 
@@ -95,13 +95,15 @@ div.menu-head {
 	padding-bottom: 0.0em;
 	margin-bottom: 0.0em;
 	font-family: 'Dawning of a New Day', cursive;
-	font-size: 165%;
+	font-size: 135%;
 	text-shadow: 1px 1px 1px #aaa;
 }
 
 div.menu-item {
 	padding-left: 16px;
 	text-indent: -16px;
+	font-size: 80%;
+	font-weight: bold;
 }
 
 div#toptitle {
