@@ -96,7 +96,7 @@ div.menu-head {
 	margin-bottom: 0.0em;
 	font-family: 'Dawning of a New Day', cursive;
 	font-size: 135%;
-	text-shadow: 1px 1px 1px #aaa;
+	text-shadow: 1px 1px 0px #aaa;
 }
 
 div.menu-item {
