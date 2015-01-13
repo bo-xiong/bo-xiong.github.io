@@ -1,4 +1,6 @@
-all:	index.html contact.html courses.html projects.html internships.html extracurrics.html acads.html pubs.html awards.html
+all:	index.html contact.html courses.html \
+	projects.html internships.html extracurrics.html\
+	 acads.html pubs.html awards.html resume.html
 
 index.html:	index.jemdoc mysite.conf MENU
 	jemdoc -c mysite.conf -o index.html index
@@ -27,5 +29,9 @@ contact.html:	contact.jemdoc mysite.conf MENU
 courses.html:	courses.jemdoc mysite.conf MENU	
 	jemdoc -c mysite.conf -o courses.html courses
 
+resume.html:	Resume_AshudeepSingh_IITKanpur_New.pdf 
+	pdf2htmlEX Resume_AshudeepSingh_IITKanpur_New.pdf resume.html
+
 clean:
+	cp resume.html resume.bak
 	rm *.html
