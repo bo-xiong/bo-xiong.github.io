@@ -20,6 +20,7 @@ linear regression based prediction.
 
 - *Semantic approach to Summarization*
 \n/CS498 project with Prof. Harish Karnick/
+\n \[[ code]\]
 -- Developed a technique to identify clusters of text segments based on semantic similarities, using
 FrameNet annotation.
 -- The input text was represented as a Semantic Role Labelled text. The clusters were constructed
@@ -31,6 +32,7 @@ yielded quite good results.
 
 - *Student Response Analysis using Textual Entailment* 
 \n/Natural Language Processing Course Project under Prof. Amitabha Mukerjee (Sept--Nov 2013)/
+\n \[[https://github.com/ashudeep/Student-Response-Analysis]\]
 -- Working on a 5-way classification task, recognizing the extent of correctness of a student answer given a question and a few reference answers.
 -- Exploring different text similarity and overlap features to train models on and also trying to use various techniques used in Recognizing Textual Entailment Challenges since 2006.
 
@@ -41,6 +43,7 @@ yielded quite good results.
 
 - *Compiler for Ada programming language*\n
 /Compiler Design Course Project under Prof. Sanjeev K Aggarwal (Jan--Apr 2013)/
+\n \[[https://github.com/ashudeep/ada-compiler/ code]\]
 -- Implemented a compiler for Ada programming language in Python with MIPS code as the target
 -- Basic programming constructs, support for arrays, records, nested / recursive / overloaded procedures / functions, packages, type extension, dynamic memory allocation, Polymorphism, stream I/O etc.
 
