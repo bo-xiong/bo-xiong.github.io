@@ -8,10 +8,21 @@ table#tlayout {
 
 body {
 	background: white;
-	font-family: 'Ubuntu', sans-serif;
+	/*font-family: 'Ubuntu', sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1.25em;
 	padding-bottom: 8px;
 	margin: 0;
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes fontfix {
+    from { opacity: 1; }
+    to   { opacity: 1; }
 }
 
 #layout-menu {
