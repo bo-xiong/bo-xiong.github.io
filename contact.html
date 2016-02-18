@@ -44,9 +44,16 @@ $(document).ready(function(){
 <h1>Contact</h1>
 </div>
 <h2>Emails</h2>
-<table class="imgtable"><tr><td>
-<img src="images/emails.jpg" alt="Email ids" width="75%" />&nbsp;</td>
-<td align="left"></td></tr></table>
+<script language="JavaScript">
+var username = "mail";
+var hostname = "ashudeepsingh.com";
+var linktext = username + "@" + hostname ;
+document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a><br>");
+var username = "ashudeep";
+var hostname = "cs.cornell.edu";
+var linktext = username + "@" + hostname ;
+document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+</script>
 <h2>Address</h2>
 <table class="imgtable"><tr><td>
 <a href="http://www.cs.cornell.edu"><img src="images/gateshall.jpg" alt="Gates Hall" width="350px" /></a>&nbsp;</td>
@@ -68,7 +75,7 @@ $(document).ready(function(){
 </ul>
 <div id="footer">
 <div id="footer-text">
-Last updated 2016-02-15 19:46:06 EST . Created using <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Last updated 2016-02-18 13:02:39 EST . Created using <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 (<a href="contact.jemdoc">source</a>)
 </div>
 </div>

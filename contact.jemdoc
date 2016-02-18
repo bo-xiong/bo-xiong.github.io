@@ -6,8 +6,21 @@
 #- [ashudeep@iitk.ac.in]
 #- [ashudeep@cse.iitk.ac.in]
 #- [ashudeep21@gmail.com]
+#~~~
+#{}{img_left}{images/emails.jpg}{Email ids}{75%}{}
+#~~~
 ~~~
-{}{img_left}{images/emails.jpg}{Email ids}{75%}{}
+{}{raw}
+<script language="JavaScript">
+var username = "mail";
+var hostname = "ashudeepsingh.com";
+var linktext = username + "@" + hostname ;
+document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a><br>");
+var username = "ashudeep";
+var hostname = "cs.cornell.edu";
+var linktext = username + "@" + hostname ;
+document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+</script>
 ~~~
 
 == Address
