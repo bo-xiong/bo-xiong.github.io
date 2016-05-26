@@ -20,18 +20,18 @@ acads.html:	acads.jemdoc mysite.conf MENU
 internships.html:	internships.jemdoc mysite.conf MENU
 	jemdoc -c mysite.conf -o internships.html internships
 
-projects.html:	projects.jemdoc mysite.conf MENU 
+projects.html:	projects.jemdoc mysite.conf MENU
 	jemdoc -c mysite.conf -o projects.html projects
 
 contact.html:	contact.jemdoc mysite.conf MENU
 	jemdoc -c mysite.conf -o contact.html contact
 
-courses.html:	courses.jemdoc mysite.conf MENU	
+courses.html:	courses.jemdoc mysite.conf MENU
 	jemdoc -c mysite.conf -o courses.html courses
 
-resume.html:	Resume_AshudeepSingh_IITKanpur_New.pdf 
+resume.html:	Resume_AshudeepSingh_IITKanpur_New.pdf
 	pdf2htmlEX Resume_AshudeepSingh_IITKanpur_New.pdf resume.html
 
 clean:
-	cp resume.html resume.bak
+	# cp resume.html resume.bak
 	rm *.html
