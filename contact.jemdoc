@@ -27,10 +27,8 @@ document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" +
 ~~~
 {}{img_left}{images/gateshall.jpg}{Gates Hall}{350px}{}{http://www.cs.cornell.edu}
 ==== Office
-349 Gates Hall
-\n343 Campus Rd
-\nCornell University
-\nIthaca, NY-14853
+349 Gates Hall, 107 Hoy Road
+\nIthaca, NY  14853
 ~~~
 
 
